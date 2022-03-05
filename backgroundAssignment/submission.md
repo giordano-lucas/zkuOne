@@ -1,10 +1,10 @@
 ## zku.ONE Background Assignment
 
-| Name                      | Value                       |
-| ------------------------- | --------------------------- |
-| course registration email | giordano3102lucas@gmail.com |
-| discord username          | giordano-lucas#9939         |
-|                           |                             |
+| Name                      | Value                                                                   |
+| ------------------------- | ----------------------------------------------------------------------- |
+| course registration email | giordano3102lucas@gmail.com                                             |
+| discord username          | giordano-lucas#9939                                                     |
+| github repo (code)        | https://github.com/giordano-lucas/zkuOne/tree/main/backgroundAssignment |
 
 # Hello World
 
@@ -130,6 +130,8 @@ require(msg.sender == chairperson, "Only chairperson can give right to vote.");
 We see that we paid : `48708 gas` for a single call which amounts to roughly `487080 gas` for 10 calls.
 
 ### Batch `giveRightToVote` using the `giveMutlipleRightsToVote` function
+
+![singleRighToVote](10-vote.png)
 
 > **giveMutlipleRightsToVote argument**: ["0x96331B0c60b10d0B061FA0eC801ecF8B314B68d8", "0x69dC7e4A8Dd1a23A31009D41495F5EC26C56fB91", "0x03C98fa6d4c9399ebdC4428192727A6d35b1Ae06", "0x6a67Ca7Ef25b24e969D6631019FF64Ef35babd97", "0x08F8ffB7498c3fe5720ffEc01B06ca01564BfC0e", "0x8Fa1763ba22F90ecd1360E30f2AB47BE789D88f2", "0x2d9ac8F87d8d4027c627D019bd2105570dbA11Fc", "0x17e746669f35FFf4a46881FEBcd58A067725f526", "0x2343DFB59521bfC0Dd8209c3E54Bec27cbdb94D9", "0x4230B1F13F760Dc24dE9987AFE74c3acb1796d9C"]
 
